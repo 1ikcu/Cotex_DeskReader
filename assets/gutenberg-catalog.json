@@ -1,0 +1,2221 @@
+{
+  "source": "https://www.gutenberg.org/browse/languages/zh",
+  "updatedAt": "2026-11-10T06:28:26.864Z",
+  "books": [
+    {
+      "remoteId": "25328",
+      "title": "豆棚闲话",
+      "author": "Wang, Xiumei"
+    },
+    {
+      "remoteId": "24225",
+      "title": "戏中戏",
+      "author": "Aiyuezhuren"
+    },
+    {
+      "remoteId": "24185",
+      "title": "比目鱼",
+      "author": "Aiyuezhuren"
+    },
+    {
+      "remoteId": "27119",
+      "title": "比目鱼",
+      "author": "Aiyuezhuren"
+    },
+    {
+      "remoteId": "38585",
+      "title": "Study of Inner Cultivation",
+      "author": "Linnell, Bruce R."
+    },
+    {
+      "remoteId": "12479",
+      "title": "三字经",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "25146",
+      "title": "山水情",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "25288",
+      "title": "山海经",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "25393",
+      "title": "施公案",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "23825",
+      "title": "施公案",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "25501",
+      "title": "易经",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "23938",
+      "title": "木兰奇女传",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "54494",
+      "title": "海公案",
+      "author": "Li, Chunfang, active 17th century"
+    },
+    {
+      "remoteId": "24068",
+      "title": "燕丹子",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "27686",
+      "title": "狄公案",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "25196",
+      "title": "百家姓",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "24048",
+      "title": "礼记",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "27330",
+      "title": "绿牡丹",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "23873",
+      "title": "诗经",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "27399",
+      "title": "麟儿报",
+      "author": "Anonymous"
+    },
+    {
+      "remoteId": "27059",
+      "title": "Hu Die Mei\nYuan Yang Meng",
+      "author": "Nanyuedaoren"
+    },
+    {
+      "remoteId": "27060",
+      "title": "Qing Lou MengQi Hong Xiao Shi",
+      "author": "Zor, Tao"
+    },
+    {
+      "remoteId": "26904",
+      "title": "天豹图",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "26886",
+      "title": "梁公九谏",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "25352",
+      "title": "长恨歌",
+      "author": "Bai, Juyi, 772-846"
+    },
+    {
+      "remoteId": "24051",
+      "title": "李娃传",
+      "author": "Bai, Xingjian, 776-826"
+    },
+    {
+      "remoteId": "25422",
+      "title": "玉楼春",
+      "author": "Baiyundaoren"
+    },
+    {
+      "remoteId": "23841",
+      "title": "汉书",
+      "author": "Yan, Shigu, 581-645"
+    },
+    {
+      "remoteId": "26921",
+      "title": "引凤萧",
+      "author": "Banyunyou"
+    },
+    {
+      "remoteId": "24230",
+      "title": "今古奇观",
+      "author": "Baowenglaoren"
+    },
+    {
+      "remoteId": "27332",
+      "title": "后西游记",
+      "author": "Biao, Xuahua"
+    },
+    {
+      "remoteId": "27331",
+      "title": "飞跎全传",
+      "author": "Bixian, Zou"
+    },
+    {
+      "remoteId": "23585",
+      "title": "佛说四十二章经",
+      "author": "Buddha"
+    },
+    {
+      "remoteId": "24264",
+      "title": "红楼梦",
+      "author": "Cao, Xueqin, 1717?-1763"
+    },
+    {
+      "remoteId": "24041",
+      "title": "洛神赋",
+      "author": "Cao, Zhi, 192-232"
+    },
+    {
+      "remoteId": "43014",
+      "title": "晁氏儒言 一卷",
+      "author": "Chao, Yuezhi, 1059-1129"
+    },
+    {
+      "remoteId": "25217",
+      "title": "水浒后传",
+      "author": "Chen, Chen, 1608?-"
+    },
+    {
+      "remoteId": "52269",
+      "title": "幼学琼林",
+      "author": "Cheng, Yunsheng"
+    },
+    {
+      "remoteId": "26932",
+      "title": "治世余闻",
+      "author": "Chen, Hongmo, 1474-1555"
+    },
+    {
+      "remoteId": "25246",
+      "title": "琵琶记",
+      "author": "Gao, Ming, 1306?-1359"
+    },
+    {
+      "remoteId": "26739",
+      "title": "雪月梅传",
+      "author": "Chen, Lang, active 18th century"
+    },
+    {
+      "remoteId": "26873",
+      "title": "龙川词",
+      "author": "Chen, Liang, 1143-1194"
+    },
+    {
+      "remoteId": "25606",
+      "title": "三国志",
+      "author": "Pei, Songzhi, 372-451"
+    },
+    {
+      "remoteId": "23835",
+      "title": "隋唐演义",
+      "author": "Chu, Renhu, active 1675-1695"
+    },
+    {
+      "remoteId": "23839",
+      "title": "论语",
+      "author": "Confucius, 551 BC-479 BC"
+    },
+    {
+      "remoteId": "62791",
+      "title": "沪语开路 = Conversational Exercises in the Shanghai Dialect",
+      "author": "Rawlinson, Frank Joseph, 1871-1937"
+    },
+    {
+      "remoteId": "27023",
+      "title": "白圭志",
+      "author": "Fu, Ling"
+    },
+    {
+      "remoteId": "25360",
+      "title": "孟子字义疏证",
+      "author": "Dai, Zhen, 1724-1777"
+    },
+    {
+      "remoteId": "24106",
+      "title": "安乐集",
+      "author": "Daochuo, 562-645"
+    },
+    {
+      "remoteId": "7215",
+      "title": "邓析子",
+      "author": "Deng, Xi, 545 BC-501 BC"
+    },
+    {
+      "remoteId": "24027",
+      "title": "醉醒石",
+      "author": "Donglugukuangsheng, active 17th century"
+    },
+    {
+      "remoteId": "27329",
+      "title": "唐锺馗平鬼传",
+      "author": "Dongshanyunzhongdaoren"
+    },
+    {
+      "remoteId": "25385",
+      "title": "春秋繁露",
+      "author": "Dong, Zhongshu, active 2nd century B.C."
+    },
+    {
+      "remoteId": "23915",
+      "title": "虬髯客传",
+      "author": "Du, Guangting, 850-933"
+    },
+    {
+      "remoteId": "27581",
+      "title": "吴船录",
+      "author": "Fan, Chengda, 1126-1193"
+    },
+    {
+      "remoteId": "24143",
+      "title": "星槎胜览",
+      "author": "Fei, Xin, 1388-1436?"
+    },
+    {
+      "remoteId": "23982",
+      "title": "星槎胜览",
+      "author": "Fei, Xin, 1388-1436?"
+    },
+    {
+      "remoteId": "27582",
+      "title": "喻世明言",
+      "author": "Feng, Menglong, 1574-1646"
+    },
+    {
+      "remoteId": "57227",
+      "title": "平妖传",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "25349",
+      "title": "东周列国志",
+      "author": "Feng, Menglong, 1574-1646"
+    },
+    {
+      "remoteId": "24141",
+      "title": "警世通言",
+      "author": "Feng, Menglong, 1574-1646"
+    },
+    {
+      "remoteId": "24239",
+      "title": "醒世恒言",
+      "author": "Feng, Menglong, 1574-1646"
+    },
+    {
+      "remoteId": "27207",
+      "title": "封氏闻见记",
+      "author": "Feng, Yan, jin shi 756"
+    },
+    {
+      "remoteId": "27016",
+      "title": "Eight dwelling places of Buddhist immortals",
+      "author": "Five colors stone"
+    },
+    {
+      "remoteId": "25362",
+      "title": "搜神记",
+      "author": "Gan, Bao, active 317-322"
+    },
+    {
+      "remoteId": "7271",
+      "title": "搜神记 volume 11-14",
+      "author": "Gan, Bao, active 317-322"
+    },
+    {
+      "remoteId": "7260",
+      "title": "搜神记 volume 1-3",
+      "author": "Gan, Bao, active 317-322"
+    },
+    {
+      "remoteId": "7272",
+      "title": "搜神记 volume 15-17",
+      "author": "Gan, Bao, active 317-322"
+    },
+    {
+      "remoteId": "7273",
+      "title": "搜神记 volume 18-20",
+      "author": "Gan, Bao, active 317-322"
+    },
+    {
+      "remoteId": "7270",
+      "title": "搜神记 volume 4-10",
+      "author": "Gan, Bao, active 317-322"
+    },
+    {
+      "remoteId": "25696",
+      "title": "抱朴子",
+      "author": "Ge, Hong, 284-364"
+    },
+    {
+      "remoteId": "25368",
+      "title": "西京杂记",
+      "author": "Ge, Hong, 284-364"
+    },
+    {
+      "remoteId": "52278",
+      "title": "幽明录",
+      "author": "Liu, Yiqing, 403-444"
+    },
+    {
+      "remoteId": "52280",
+      "title": "明镜公案",
+      "author": "Wu, Peiquan"
+    },
+    {
+      "remoteId": "7216",
+      "title": "公孙龙子",
+      "author": "Gongsun, Long, active 3rd century B.C."
+    },
+    {
+      "remoteId": "52276",
+      "title": "窦娥冤",
+      "author": "Guan, Hanqing, 1210?-1298?"
+    },
+    {
+      "remoteId": "24004",
+      "title": "窦娥寃",
+      "author": "Guan, Hanqing, 1210?-1298?"
+    },
+    {
+      "remoteId": "7367",
+      "title": "管子",
+      "author": "Guan, Zhong, -645 BC"
+    },
+    {
+      "remoteId": "7483",
+      "title": "管子 — Volume 01 : Chapters 1-5",
+      "author": "Guan, Zhong, -645 BC"
+    },
+    {
+      "remoteId": "7484",
+      "title": "管子 — Volume 02 : Chapters 6-10",
+      "author": "Guan, Zhong, -645 BC"
+    },
+    {
+      "remoteId": "7209",
+      "title": "鬼谷子",
+      "author": "Guiguzi, active 4th century B.C."
+    },
+    {
+      "remoteId": "25168",
+      "title": "鬼谷子",
+      "author": "Guiguzi, active 4th century B.C."
+    },
+    {
+      "remoteId": "24058",
+      "title": "穆天子传",
+      "author": "Guo, Pu, 276-324"
+    },
+    {
+      "remoteId": "52271",
+      "title": "汉武帝别国洞冥记",
+      "author": "Guo, Xian, active 1st century"
+    },
+    {
+      "remoteId": "25262",
+      "title": "日知录",
+      "author": "Gu, Yanwu, 1613-1682"
+    },
+    {
+      "remoteId": "26872",
+      "title": "海上花列传",
+      "author": "Han, Bangqing, 1856-1894"
+    },
+    {
+      "remoteId": "24049",
+      "title": "韩非子",
+      "author": "Han, Fei, -233 BC"
+    },
+    {
+      "remoteId": "26931",
+      "title": "风月梦",
+      "author": "Hanshangmengren, active 19th century"
+    },
+    {
+      "remoteId": "23909",
+      "title": "韩诗外传",
+      "author": "Han, Ying, active 150 B.C."
+    },
+    {
+      "remoteId": "7290",
+      "title": "韩诗外传, Complete",
+      "author": "Han, Ying, active 150 B.C."
+    },
+    {
+      "remoteId": "7285",
+      "title": "韩诗外传, Vol. 1-2",
+      "author": "Han, Ying, active 150 B.C."
+    },
+    {
+      "remoteId": "7286",
+      "title": "韩诗外传, Vol. 3-4",
+      "author": "Han, Ying, active 150 B.C."
+    },
+    {
+      "remoteId": "7287",
+      "title": "韩诗外传, Vol. 5-6",
+      "author": "Han, Ying, active 150 B.C."
+    },
+    {
+      "remoteId": "7288",
+      "title": "韩诗外传, Vol. 7-8",
+      "author": "Han, Ying, active 150 B.C."
+    },
+    {
+      "remoteId": "7289",
+      "title": "韩诗外传, Vol. 9-10",
+      "author": "Han, Ying, active 150 B.C."
+    },
+    {
+      "remoteId": "52323",
+      "title": "唐诗三百首",
+      "author": "Hengtangtuishi, 1711-1778"
+    },
+    {
+      "remoteId": "52270",
+      "title": "长生殿",
+      "author": "Hong, Sheng, 1645-1704"
+    },
+    {
+      "remoteId": "24050",
+      "title": "菜根谭",
+      "author": "Hong, Zicheng, active 1596"
+    },
+    {
+      "remoteId": "24040",
+      "title": "菜根谭前后集",
+      "author": "Hong, Zicheng, active 1596"
+    },
+    {
+      "remoteId": "25236",
+      "title": "筠州黄檗山断际禅师传法心要",
+      "author": "Huangbo, -850"
+    },
+    {
+      "remoteId": "23914",
+      "title": "山水小牍",
+      "author": "Huangfu, Mei, active 873-910"
+    },
+    {
+      "remoteId": "23948",
+      "title": "高士传",
+      "author": "Huangfu, Mi, 215-282"
+    },
+    {
+      "remoteId": "24098",
+      "title": "金刚般若波罗蜜经",
+      "author": "Kumārajīva, -412?"
+    },
+    {
+      "remoteId": "54777",
+      "title": "天妃显圣录",
+      "author": "Lin, Yao Yu"
+    },
+    {
+      "remoteId": "7218",
+      "title": "三略",
+      "author": "Huang, Shigong, active 3rd century B.C."
+    },
+    {
+      "remoteId": "23855",
+      "title": "明夷待访录",
+      "author": "Huang, Zongxi, 1610-1695"
+    },
+    {
+      "remoteId": "26920",
+      "title": "盐铁论",
+      "author": "Huan, Kuan, active 1st century B.C."
+    },
+    {
+      "remoteId": "27753",
+      "title": "一枕奇",
+      "author": "Huayangsanren, 1610?-1675?"
+    },
+    {
+      "remoteId": "23844",
+      "title": "六祖坛经",
+      "author": "Shi, Fa-Hai"
+    },
+    {
+      "remoteId": "27218",
+      "title": "台湾外纪",
+      "author": "Jiang, Risheng, active 1692"
+    },
+    {
+      "remoteId": "23814",
+      "title": "贾谊新书",
+      "author": "Jia, Yi, 200 BC-168 BC"
+    },
+    {
+      "remoteId": "25369",
+      "title": "金石缘",
+      "author": "Jingtianzhuren"
+    },
+    {
+      "remoteId": "23817",
+      "title": "阅微草堂笔记",
+      "author": "Ji, Yun, 1724-1805"
+    },
+    {
+      "remoteId": "27108",
+      "title": "醒梦骈言",
+      "author": "Wang, Xiu mei"
+    },
+    {
+      "remoteId": "25374",
+      "title": "孔丛子",
+      "author": "Kong, Fu, 264? BC-208 BC"
+    },
+    {
+      "remoteId": "24223",
+      "title": "小尔雅",
+      "author": "Kong, Fu, 264? BC-208 BC"
+    },
+    {
+      "remoteId": "25287",
+      "title": "续世说",
+      "author": "Kong, Pingzhong, 1044-1111"
+    },
+    {
+      "remoteId": "24234",
+      "title": "桃花扇",
+      "author": "Kong, Shangren, 1648-1718"
+    },
+    {
+      "remoteId": "25202",
+      "title": "补红楼梦",
+      "author": "Langhuanshanqiao, active 18th century-19th century"
+    },
+    {
+      "remoteId": "49965",
+      "title": "Dao De Jing: A Minimalist Translation",
+      "author": "Linnell, Bruce R."
+    },
+    {
+      "remoteId": "24039",
+      "title": "老子",
+      "author": "Laozi"
+    },
+    {
+      "remoteId": "7337",
+      "title": "道德经",
+      "author": "Laozi"
+    },
+    {
+      "remoteId": "4094",
+      "title": "The Chinese Classics — Volume 1: Confucian Analects",
+      "author": "Legge, James, 1815-1897"
+    },
+    {
+      "remoteId": "3100",
+      "title": "The Chinese Classics: with a translation, critical and exegetical notes, prolegomena and copious indexes\n(Shih ching. English) — Volume 1",
+      "author": "Legge, James, 1815-1897"
+    },
+    {
+      "remoteId": "25557",
+      "title": "台湾通史\n唐山过海的故事",
+      "author": "Lian, Heng, 1878-1936"
+    },
+    {
+      "remoteId": "24169",
+      "title": "李太白集",
+      "author": "Xu, Ren Tu"
+    },
+    {
+      "remoteId": "24060",
+      "title": "李太白集",
+      "author": "Xu, Ren Tu"
+    },
+    {
+      "remoteId": "24138",
+      "title": "官场现形记",
+      "author": "Li, Boyuan, 1867-1906"
+    },
+    {
+      "remoteId": "54756",
+      "title": "官场现形记",
+      "author": "Li, Boyuan, 1867-1906"
+    },
+    {
+      "remoteId": "24139",
+      "title": "官场现形记",
+      "author": "Li, Boyuan, 1867-1906"
+    },
+    {
+      "remoteId": "25379",
+      "title": "文明小史",
+      "author": "Li, Boyuan, 1867-1906"
+    },
+    {
+      "remoteId": "24038",
+      "title": "孙子算经",
+      "author": "Sunzi, approximately 5th century"
+    },
+    {
+      "remoteId": "7341",
+      "title": "列子",
+      "author": "Liezi, active 4th century B.C."
+    },
+    {
+      "remoteId": "25123",
+      "title": "脾胃论",
+      "author": "Li, Gao, 1180-1251"
+    },
+    {
+      "remoteId": "25417",
+      "title": "李贺诗选",
+      "author": "Li, He, 790-816"
+    },
+    {
+      "remoteId": "23822",
+      "title": "文心雕龙",
+      "author": "Luo, Li-chian"
+    },
+    {
+      "remoteId": "24162",
+      "title": "二刻拍案惊奇",
+      "author": "Ling, Mengchu, 1580-1644"
+    },
+    {
+      "remoteId": "26729",
+      "title": "二刻拍案惊奇",
+      "author": "Ling, Mengchu, 1580-1644"
+    },
+    {
+      "remoteId": "57248",
+      "title": "初刻拍案惊奇",
+      "author": "Ling, Mengchu, 1580-1644"
+    },
+    {
+      "remoteId": "27415",
+      "title": "杀子报",
+      "author": "Lingyanqiaozi"
+    },
+    {
+      "remoteId": "38580",
+      "title": "True Heart/Mind",
+      "author": "Sengcan, -606"
+    },
+    {
+      "remoteId": "54433",
+      "title": "西海纪游草",
+      "author": "Lin, Zhen, 1824-"
+    },
+    {
+      "remoteId": "25367",
+      "title": "漱玉词",
+      "author": "Li, Qingzhao, 1081-1141?"
+    },
+    {
+      "remoteId": "23818",
+      "title": "镜花缘",
+      "author": "Li, Ruzhen, 1763?-1830?"
+    },
+    {
+      "remoteId": "25377",
+      "title": "镜花缘",
+      "author": "Li, Ruzhen, 1763?-1830?"
+    },
+    {
+      "remoteId": "25247",
+      "title": "李义山诗集",
+      "author": "Li, Shangyin, 813-858"
+    },
+    {
+      "remoteId": "24059",
+      "title": "淮南子",
+      "author": "Liu, An, 179 BC-122 BC"
+    },
+    {
+      "remoteId": "25124",
+      "title": "老残游记",
+      "author": "Liu, E, 1857-1909"
+    },
+    {
+      "remoteId": "23850",
+      "title": "老残游记",
+      "author": "Liu, E, 1857-1909"
+    },
+    {
+      "remoteId": "56291",
+      "title": "老残游记续集",
+      "author": "Liu, E, 1857-1909"
+    },
+    {
+      "remoteId": "27087",
+      "title": "Wu De Ji",
+      "author": "Liu, Guang Wei"
+    },
+    {
+      "remoteId": "26979",
+      "title": "海岛算经",
+      "author": "Liu, Hui, active 3rd century-4th century"
+    },
+    {
+      "remoteId": "25298",
+      "title": "郁离子",
+      "author": "Liu, Ji, 1311-1375"
+    },
+    {
+      "remoteId": "7217",
+      "title": "人物志",
+      "author": "Liu, Shao, active 3rd century"
+    },
+    {
+      "remoteId": "27596",
+      "title": "隋唐嘉话",
+      "author": "Liu, Su, active 742-755"
+    },
+    {
+      "remoteId": "25280",
+      "title": "大唐新语",
+      "author": "Liu, Su, active 806-820"
+    },
+    {
+      "remoteId": "25414",
+      "title": "列仙传",
+      "author": "Zhang, Jinling"
+    },
+    {
+      "remoteId": "24228",
+      "title": "列女传",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "23945",
+      "title": "新序",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "7332",
+      "title": "说苑",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "7330",
+      "title": "说苑, Volume 13-16",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "7327",
+      "title": "说苑, Volume 1-4",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "7331",
+      "title": "说苑, Volume 17-20",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "7328",
+      "title": "说苑, Volume 5-8",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "7329",
+      "title": "说苑, Volume 9-12",
+      "author": "Liu, Xiang, 77? BC-6? BC"
+    },
+    {
+      "remoteId": "23951",
+      "title": "西京杂记",
+      "author": "Liu, Xin, -23"
+    },
+    {
+      "remoteId": "24229",
+      "title": "旧唐书",
+      "author": "Liu, Xu, 887-946"
+    },
+    {
+      "remoteId": "24047",
+      "title": "世说新语",
+      "author": "Liu, Yiqing, 403-444"
+    },
+    {
+      "remoteId": "25228",
+      "title": "乐章集",
+      "author": "Zhu, Zumou, 1857-1931"
+    },
+    {
+      "remoteId": "27216",
+      "title": "斩鬼传",
+      "author": "Liu, Zhang"
+    },
+    {
+      "remoteId": "23867",
+      "title": "斩鬼传",
+      "author": "Liu, Zhang"
+    },
+    {
+      "remoteId": "23908",
+      "title": "梦中缘",
+      "author": "Li, Xiuxing, jin shi 1715"
+    },
+    {
+      "remoteId": "25250",
+      "title": "合锦回文传",
+      "author": "Tiehuashanren"
+    },
+    {
+      "remoteId": "23907",
+      "title": "无声戏",
+      "author": "Li, Yu, 1611-1680?"
+    },
+    {
+      "remoteId": "52205",
+      "title": "肉蒲团",
+      "author": "Li, Yu, 1611-1680?"
+    },
+    {
+      "remoteId": "25380",
+      "title": "闲情偶寄",
+      "author": "Li, Yu, 1611-1680?"
+    },
+    {
+      "remoteId": "25471",
+      "title": "闲情偶寄",
+      "author": "Li, Yu, 1611-1680?"
+    },
+    {
+      "remoteId": "23823",
+      "title": "弟子规",
+      "author": "Li, Yuxiu, active 17th century-18th century"
+    },
+    {
+      "remoteId": "27172",
+      "title": "庚巳编",
+      "author": "Lu, Can, 1494-1551"
+    },
+    {
+      "remoteId": "25558",
+      "title": "呻吟语",
+      "author": "Lü, Kun, 1536-1618"
+    },
+    {
+      "remoteId": "23950",
+      "title": "三国志演义",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "25248",
+      "title": "平妖传",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "27145",
+      "title": "残唐五代史演义传",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4580",
+      "title": "粉妆楼",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4572",
+      "title": "粉妆楼1-10回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4573",
+      "title": "粉妆楼11-20回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4574",
+      "title": "粉妆楼21-30回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4575",
+      "title": "粉妆楼31-40回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4576",
+      "title": "粉妆楼41-50回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4577",
+      "title": "粉妆楼51-60回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4578",
+      "title": "粉妆楼61-70回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "4579",
+      "title": "粉妆楼71-80回",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "26871",
+      "title": "粉妆楼全传",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "23824",
+      "title": "说唐",
+      "author": "Luo, Guanzhong, 1330?-1400?"
+    },
+    {
+      "remoteId": "24170",
+      "title": "常言道",
+      "author": "Luopodaoren"
+    },
+    {
+      "remoteId": "54784",
+      "title": "大唐三藏取经诗话",
+      "author": "Wang, Guowei, 1877-1927"
+    },
+    {
+      "remoteId": "7340",
+      "title": "六韬",
+      "author": "Lü, Shang"
+    },
+    {
+      "remoteId": "25561",
+      "title": "痴人说梦记",
+      "author": "Lü, Sheng"
+    },
+    {
+      "remoteId": "24154",
+      "title": "痴人说梦记",
+      "author": "Lü, Sheng"
+    },
+    {
+      "remoteId": "23910",
+      "title": "封神演义",
+      "author": "Lu, Xixing, 1520-1606"
+    },
+    {
+      "remoteId": "25559",
+      "title": "中国小说史略",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "25346",
+      "title": "南腔北调集",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "27166",
+      "title": "呐喊",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "24042",
+      "title": "徬徨",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "25271",
+      "title": "朝花夕拾",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "25423",
+      "title": "狂人日记",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "25297",
+      "title": "狂人日记",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "25242",
+      "title": "野草",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "25332",
+      "title": "阿Ｑ正传",
+      "author": "Lu, Xun, 1881-1936"
+    },
+    {
+      "remoteId": "23854",
+      "title": "文子",
+      "author": "Xing, Jian"
+    },
+    {
+      "remoteId": "27122",
+      "title": "老学庵笔记",
+      "author": "Lu, You, 1125-1210"
+    },
+    {
+      "remoteId": "7406",
+      "title": "茶经",
+      "author": "Lu, Yu, 733-804"
+    },
+    {
+      "remoteId": "23949",
+      "title": "茶经",
+      "author": "Lu, Yu, 733-804"
+    },
+    {
+      "remoteId": "25249",
+      "title": "近思录",
+      "author": "Zhu, Xi, 1130-1200"
+    },
+    {
+      "remoteId": "23981",
+      "title": "瀛涯胜览",
+      "author": "Ma, Huan, active 1414-1451"
+    },
+    {
+      "remoteId": "24144",
+      "title": "瀛涯胜览",
+      "author": "Ma, Huan, active 1414-1451"
+    },
+    {
+      "remoteId": "54820",
+      "title": "Brief Account of the English Character",
+      "author": "Morrison, Robert, 1782-1834"
+    },
+    {
+      "remoteId": "52199",
+      "title": "汉宫秋",
+      "author": "Ma, Zhiyuan, 1250?-1324?"
+    },
+    {
+      "remoteId": "24178",
+      "title": "孟子",
+      "author": "Mencius, 372? BC-289? BC"
+    },
+    {
+      "remoteId": "24137",
+      "title": "东京梦华录",
+      "author": "Meng, Yuanlao, active 1126-1147"
+    },
+    {
+      "remoteId": "57238",
+      "title": "白兔记",
+      "author": "Ming, I"
+    },
+    {
+      "remoteId": "27414",
+      "title": "好逑传",
+      "author": "Mingjiaozhongren"
+    },
+    {
+      "remoteId": "30465",
+      "title": "御制广寒殿记",
+      "author": "Wei, Jiao, 1483-1543"
+    },
+    {
+      "remoteId": "24240",
+      "title": "墨子",
+      "author": "Mo, Di, 470? BC-391? BC"
+    },
+    {
+      "remoteId": "24273",
+      "title": "西湖佳话",
+      "author": "Mo, Langzi, pseud."
+    },
+    {
+      "remoteId": "27184",
+      "title": "痴人福",
+      "author": "Mountain, Plum Rocky"
+    },
+    {
+      "remoteId": "25259",
+      "title": "公墓",
+      "author": "Mu, Shiying"
+    },
+    {
+      "remoteId": "25194",
+      "title": "饮水词集",
+      "author": "Nalan, Xingde, 1655-1685"
+    },
+    {
+      "remoteId": "26922",
+      "title": "春柳莺",
+      "author": "Nanbeiheguanshizhe"
+    },
+    {
+      "remoteId": "25218",
+      "title": "六一词",
+      "author": "Ouyang, Xiu, 1007-1072"
+    },
+    {
+      "remoteId": "25431",
+      "title": "归田录",
+      "author": "Ouyang, Xiu, 1007-1072"
+    },
+    {
+      "remoteId": "23947",
+      "title": "蜀碧",
+      "author": "Peng, Zunsi, jin shi 1737"
+    },
+    {
+      "remoteId": "25134",
+      "title": "九尾狐",
+      "author": "Pinghuazhuren"
+    },
+    {
+      "remoteId": "51828",
+      "title": "聊斋志异",
+      "author": "Pu, Songling, 1640-1715"
+    },
+    {
+      "remoteId": "26161",
+      "title": "醒世姻缘",
+      "author": "Pu, Songling, 1640-1715"
+    },
+    {
+      "remoteId": "27088",
+      "title": "南部新书",
+      "author": "Qian, Yi, jin shi 999"
+    },
+    {
+      "remoteId": "24233",
+      "title": "东度记",
+      "author": "Qingxidaoren, active 17th century"
+    },
+    {
+      "remoteId": "27107",
+      "title": "金云翘传",
+      "author": "Qingxincairen"
+    },
+    {
+      "remoteId": "56202",
+      "title": "拾遗记",
+      "author": "Xiao, Qi"
+    },
+    {
+      "remoteId": "25226",
+      "title": "负曝闲谈",
+      "author": "Quyuan"
+    },
+    {
+      "remoteId": "24193",
+      "title": "燕子笺",
+      "author": "Ruan, Dacheng, 1587-1646"
+    },
+    {
+      "remoteId": "25498",
+      "title": "佛说无量寿经",
+      "author": "Sanghavarman, -520"
+    },
+    {
+      "remoteId": "27148",
+      "title": "蕉叶帕",
+      "author": "Shan, Ben"
+    },
+    {
+      "remoteId": "23833",
+      "title": "商君书",
+      "author": "Shang, Yang, -338 BC"
+    },
+    {
+      "remoteId": "7383",
+      "title": "商子",
+      "author": "Shang, Yang, -338 BC"
+    },
+    {
+      "remoteId": "25223",
+      "title": "俗话倾谈",
+      "author": "Shao, Binru"
+    },
+    {
+      "remoteId": "25366",
+      "title": "慎子",
+      "author": "Shen, Dao, 350? BC-275? BC"
+    },
+    {
+      "remoteId": "25192",
+      "title": "浮生六记",
+      "author": "Shen, Fu, 1763-1808?"
+    },
+    {
+      "remoteId": "52238",
+      "title": "枕中记",
+      "author": "Shen, Jiji, 740?-800?"
+    },
+    {
+      "remoteId": "27292",
+      "title": "梦溪笔谈",
+      "author": "Shen, Kuo, 1031-1095"
+    },
+    {
+      "remoteId": "7312",
+      "title": "梦溪笔谈, Volume 01-06",
+      "author": "Shen, Kuo, 1031-1095"
+    },
+    {
+      "remoteId": "7317",
+      "title": "梦溪笔谈, Volume 01-26",
+      "author": "Shen, Kuo, 1031-1095"
+    },
+    {
+      "remoteId": "7313",
+      "title": "梦溪笔谈, Volume 07-10",
+      "author": "Shen, Kuo, 1031-1095"
+    },
+    {
+      "remoteId": "7314",
+      "title": "梦溪笔谈, Volume 11-16",
+      "author": "Shen, Kuo, 1031-1095"
+    },
+    {
+      "remoteId": "7315",
+      "title": "梦溪笔谈, Volume 17-21",
+      "author": "Shen, Kuo, 1031-1095"
+    },
+    {
+      "remoteId": "7316",
+      "title": "梦溪笔谈, Volume 22-26",
+      "author": "Shen, Kuo, 1031-1095"
+    },
+    {
+      "remoteId": "25375",
+      "title": "谐铎",
+      "author": "Shen, Qifeng, 1741-"
+    },
+    {
+      "remoteId": "26737",
+      "title": "幽闺记",
+      "author": "Shi, Hui"
+    },
+    {
+      "remoteId": "23863",
+      "title": "水浒传",
+      "author": "Shi, Nai'an, 1290?-1365?"
+    },
+    {
+      "remoteId": "26876",
+      "title": "文子",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "25376",
+      "title": "三侠五义",
+      "author": "Shi, Yukun, active 19th century"
+    },
+    {
+      "remoteId": "24226",
+      "title": "史记",
+      "author": "Sima, Qian, 145? BC-86? BC"
+    },
+    {
+      "remoteId": "25167",
+      "title": "司马法",
+      "author": "Sima, Rangju, active 4th century B.C."
+    },
+    {
+      "remoteId": "25716",
+      "title": "灵历集光",
+      "author": "Song, Shangjie, 1901-1944"
+    },
+    {
+      "remoteId": "23913",
+      "title": "庄子的故事",
+      "author": "Song, Ye"
+    },
+    {
+      "remoteId": "25273",
+      "title": "天工开物",
+      "author": "Song, Yingxing, 1587-"
+    },
+    {
+      "remoteId": "27104",
+      "title": "归莲梦",
+      "author": "Su'anzhuren, active 18th century"
+    },
+    {
+      "remoteId": "25279",
+      "title": "锦香亭",
+      "author": "Su'anzhuren, active 18th century"
+    },
+    {
+      "remoteId": "25253",
+      "title": "杜阳杂编",
+      "author": "Su, E, jin shi 886"
+    },
+    {
+      "remoteId": "23983",
+      "title": "断鸿零雁记",
+      "author": "Su, Manshu, 1884-1918"
+    },
+    {
+      "remoteId": "25173",
+      "title": "北梦琐言",
+      "author": "Sun, Guangxian, -968"
+    },
+    {
+      "remoteId": "12407",
+      "title": "兵法 (Bīng Fǎ)",
+      "author": "Sunzi, active 6th century B.C."
+    },
+    {
+      "remoteId": "23864",
+      "title": "孙子兵法",
+      "author": "Sunzi, active 6th century B.C."
+    },
+    {
+      "remoteId": "24114",
+      "title": "东坡志林",
+      "author": "Su, Shi, 1037-1101"
+    },
+    {
+      "remoteId": "24028",
+      "title": "东坡乐府",
+      "author": "Su, Shi, 1037-1101"
+    },
+    {
+      "remoteId": "27123",
+      "title": "水调歌头",
+      "author": "Su, Shi, 1037-1101"
+    },
+    {
+      "remoteId": "25321",
+      "title": "苏洵集",
+      "author": "Xu, Ren Tu"
+    },
+    {
+      "remoteId": "7349",
+      "title": "孙子兵法道家新注解",
+      "author": "Tang, Jingwu"
+    },
+    {
+      "remoteId": "23849",
+      "title": "牡丹亭",
+      "author": "Tang, Xianzu, 1550-1616"
+    },
+    {
+      "remoteId": "26970",
+      "title": "彭公案",
+      "author": "Tanmengdaoren"
+    },
+    {
+      "remoteId": "2090",
+      "title": "Peach Blossom Shangri-la: Tao Hua Yuan Ji",
+      "author": "Tao, Qian, 372?-427"
+    },
+    {
+      "remoteId": "30544",
+      "title": "五孝传",
+      "author": "Tao, Qian, 372?-427"
+    },
+    {
+      "remoteId": "7266",
+      "title": "搜神后记",
+      "author": "Tao, Qian, 372?-427"
+    },
+    {
+      "remoteId": "7468",
+      "title": "搜神后记. Selections. 1985",
+      "author": "Tao, Qian, 372?-427"
+    },
+    {
+      "remoteId": "24142",
+      "title": "轰天雷",
+      "author": "Tenggu, Guxiang, 1880-1919"
+    },
+    {
+      "remoteId": "23878",
+      "title": "人间乐",
+      "author": "Tianhuazangzhuren"
+    },
+    {
+      "remoteId": "24422",
+      "title": "定情人",
+      "author": "Tianhuazangzhuren"
+    },
+    {
+      "remoteId": "24224",
+      "title": "平山冷燕",
+      "author": "Tianhuazangzhuren"
+    },
+    {
+      "remoteId": "23877",
+      "title": "玉娇梨",
+      "author": "Tianhuazangzhuren"
+    },
+    {
+      "remoteId": "27105",
+      "title": "玉支机",
+      "author": "Tianhuazangzhuren"
+    },
+    {
+      "remoteId": "25636",
+      "title": "玉双鱼",
+      "author": "Tianhuazangzhuren"
+    },
+    {
+      "remoteId": "26738",
+      "title": "画图缘",
+      "author": "Yang, Lisheng"
+    },
+    {
+      "remoteId": "25399",
+      "title": "石点头",
+      "author": "Tianranchisou"
+    },
+    {
+      "remoteId": "24079",
+      "title": "商界现形记",
+      "author": "Tianzhuisheng"
+    },
+    {
+      "remoteId": "25137",
+      "title": "玉蟾记",
+      "author": "Tongyuanzi"
+    },
+    {
+      "remoteId": "24183",
+      "title": "宋史",
+      "author": "Tuotuo, 1313-1355"
+    },
+    {
+      "remoteId": "12408",
+      "title": "周髀算经",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "52275",
+      "title": "孔雀东南飞",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "24232",
+      "title": "孝经",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "25329",
+      "title": "春秋配",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "51620",
+      "title": "尔雅",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "24111",
+      "title": "竹书纪年",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "27858",
+      "title": "黄帝宅经",
+      "author": "Unknown"
+    },
+    {
+      "remoteId": "7221",
+      "title": "文渊阁四库全书",
+      "author": "Various"
+    },
+    {
+      "remoteId": "26888",
+      "title": "本草备要",
+      "author": "Wang, Ang, 1615-"
+    },
+    {
+      "remoteId": "25397",
+      "title": "论衡",
+      "author": "Wang, Chong, 27-97?"
+    },
+    {
+      "remoteId": "25161",
+      "title": "魏郑公谏录",
+      "author": "Wang, Fangqing, -702"
+    },
+    {
+      "remoteId": "24112",
+      "title": "人间词话",
+      "author": "Wang, Guowei, 1877-1927"
+    },
+    {
+      "remoteId": "29032",
+      "title": "海国春秋",
+      "author": "Wang, Ji, -1796?"
+    },
+    {
+      "remoteId": "24029",
+      "title": "冷眼观",
+      "author": "Wang, Junqing"
+    },
+    {
+      "remoteId": "7220",
+      "title": "竹斋集",
+      "author": "Wang, Mian, 1287-1359"
+    },
+    {
+      "remoteId": "23906",
+      "title": "西厢记",
+      "author": "Wang, Shifu, 1260-1316"
+    },
+    {
+      "remoteId": "27026",
+      "title": "艳异编",
+      "author": "Wang, Shizhen, 1526-1590"
+    },
+    {
+      "remoteId": "26746",
+      "title": "分甘余话",
+      "author": "Wang, Shizhen, 1634-1711"
+    },
+    {
+      "remoteId": "25214",
+      "title": "剑侠传",
+      "author": "Wang, Shizhen, 1634-1711"
+    },
+    {
+      "remoteId": "25162",
+      "title": "池北偶谈",
+      "author": "Wang, Shizhen, 1634-1711"
+    },
+    {
+      "remoteId": "27291",
+      "title": "文中子中说",
+      "author": "Wang, Yun Wu"
+    },
+    {
+      "remoteId": "25314",
+      "title": "荀子集解",
+      "author": "Wang, Xianqian, 1842-1918"
+    },
+    {
+      "remoteId": "25517",
+      "title": "传习录",
+      "author": "Wang, Yangming, 1472-1529"
+    },
+    {
+      "remoteId": "25142",
+      "title": "王阳明全集",
+      "author": "Wang, Yangming, 1472-1529"
+    },
+    {
+      "remoteId": "67976",
+      "title": "故事新读本: 第一册",
+      "author": "Wang, Yiming"
+    },
+    {
+      "remoteId": "25160",
+      "title": "三字经",
+      "author": "Wang, Yinglin, 1223-1296"
+    },
+    {
+      "remoteId": "25121",
+      "title": "花外集",
+      "author": "Wang, Yisun, -1290?"
+    },
+    {
+      "remoteId": "25421",
+      "title": "围炉夜话",
+      "author": "Wang, Yongbin"
+    },
+    {
+      "remoteId": "7219",
+      "title": "尉缭子",
+      "author": "Wei, Liao, active 4th century B.C."
+    },
+    {
+      "remoteId": "25187",
+      "title": "花月痕",
+      "author": "Wei, Zi'an, 1819-1874"
+    },
+    {
+      "remoteId": "25219",
+      "title": "花月痕",
+      "author": "Wei, Zi'an, 1819-1874"
+    },
+    {
+      "remoteId": "23843",
+      "title": "明月台",
+      "author": "Weng, Gui"
+    },
+    {
+      "remoteId": "25327",
+      "title": "儿女英雄传",
+      "author": "Wenkang, active 1842-1851"
+    },
+    {
+      "remoteId": "24052",
+      "title": "玉壶淸话",
+      "author": "Wenying, active 11th century"
+    },
+    {
+      "remoteId": "23962",
+      "title": "西游记",
+      "author": "Wu, Cheng'en, 1500?-1582?"
+    },
+    {
+      "remoteId": "25225",
+      "title": "古文观止",
+      "author": "Wu, Dazhi, active 1678-1695"
+    },
+    {
+      "remoteId": "23834",
+      "title": "青箱杂记",
+      "author": "Wu, Chuhou, jin shi 1053"
+    },
+    {
+      "remoteId": "25243",
+      "title": "海游记",
+      "author": "Wugenzi, active 1573"
+    },
+    {
+      "remoteId": "27328",
+      "title": "驻春园小史",
+      "author": "Wuhangyeke"
+    },
+    {
+      "remoteId": "54567",
+      "title": "二十年目睹之怪现状",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "25402",
+      "title": "九命奇冤",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "24113",
+      "title": "九命奇冤",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "24099",
+      "title": "二十年目睹之怪现状",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "23865",
+      "title": "恨海",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "24227",
+      "title": "情变",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "27768",
+      "title": "瞎骗奇闻",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "23827",
+      "title": "胡涂世界",
+      "author": "Wu, Jianren, 1866-1910"
+    },
+    {
+      "remoteId": "25252",
+      "title": "贞观政要",
+      "author": "Wu, Jing, 670-749"
+    },
+    {
+      "remoteId": "25347",
+      "title": "贞观政要",
+      "author": "Wu, Jing, 670-749"
+    },
+    {
+      "remoteId": "24156",
+      "title": "中国十大禁书之国色天香",
+      "author": "Wu, Jingsuo, active 16th century"
+    },
+    {
+      "remoteId": "24032",
+      "title": "儒林外史",
+      "author": "Wu, Jingzi, 1701-1754"
+    },
+    {
+      "remoteId": "23838",
+      "title": "杨家将",
+      "author": "Xiong, Damu, active 16th century"
+    },
+    {
+      "remoteId": "29079",
+      "title": "五色石",
+      "author": "Wuseshizhuren, ju ren 1738"
+    },
+    {
+      "remoteId": "25237",
+      "title": "快士传",
+      "author": "Wuseshizhuren, ju ren 1738"
+    },
+    {
+      "remoteId": "25229",
+      "title": "飞龙全传",
+      "author": "Wu, Xuan, active 18th century"
+    },
+    {
+      "remoteId": "25195",
+      "title": "风月鉴",
+      "author": "Wu, Yitang, active 19 century"
+    },
+    {
+      "remoteId": "43009",
+      "title": "古诗十九首",
+      "author": "Xiao, Tong, 501-531"
+    },
+    {
+      "remoteId": "52200",
+      "title": "金瓶梅",
+      "author": "Xiaoxiaosheng"
+    },
+    {
+      "remoteId": "27204",
+      "title": "满江红",
+      "author": "Yue, Fei, 1103-1142"
+    },
+    {
+      "remoteId": "27185",
+      "title": "宛如约",
+      "author": "Xihuazhuren"
+    },
+    {
+      "remoteId": "25286",
+      "title": "欢喜冤家",
+      "author": "Xihuyuyinzhuren"
+    },
+    {
+      "remoteId": "25251",
+      "title": "八段锦",
+      "author": "Xingshijushi"
+    },
+    {
+      "remoteId": "24733",
+      "title": "辛弃疾词选",
+      "author": "Xin, Qiji, 1140-1207"
+    },
+    {
+      "remoteId": "28714",
+      "title": "唐才子传",
+      "author": "Xin, Wenfang, active 13th century-14th century"
+    },
+    {
+      "remoteId": "23842",
+      "title": "杨家将",
+      "author": "Xiong, Damu, active 16th century"
+    },
+    {
+      "remoteId": "27082",
+      "title": "杨家将演义",
+      "author": "Xiong, Damu, active 16th century"
+    },
+    {
+      "remoteId": "25130",
+      "title": "夜雨秋灯录",
+      "author": "Xuan, Ding, 1832-1880?"
+    },
+    {
+      "remoteId": "25348",
+      "title": "双凤奇缘",
+      "author": "Xueqiaozhuren"
+    },
+    {
+      "remoteId": "23876",
+      "title": "徐霞客游记",
+      "author": "Xu, Hongzu, 1586-1641"
+    },
+    {
+      "remoteId": "25324",
+      "title": "玉台新咏",
+      "author": "Xu, Ling, 507-583"
+    },
+    {
+      "remoteId": "7408",
+      "title": "申鉴",
+      "author": "Xun, Yue, 148-209"
+    },
+    {
+      "remoteId": "25521",
+      "title": "玉梨魂",
+      "author": "Xu, Zhenya, 1889-1937"
+    },
+    {
+      "remoteId": "24231",
+      "title": "韩湘子全传",
+      "author": "Yang, Erzeng, active 17th century"
+    },
+    {
+      "remoteId": "27171",
+      "title": "鬼谷四友志",
+      "author": "Yang, Jingchang, active 18th century-19th century"
+    },
+    {
+      "remoteId": "27294",
+      "title": "方言",
+      "author": "Yang, Xiong, 53 BC-18"
+    },
+    {
+      "remoteId": "25649",
+      "title": "巧联珠",
+      "author": "Yanxiayishi"
+    },
+    {
+      "remoteId": "26748",
+      "title": "幻中游",
+      "author": "Yanxiazhuren, active 18th century"
+    },
+    {
+      "remoteId": "25289",
+      "title": "沧浪诗话",
+      "author": "Yan, Yu, active 12th century"
+    },
+    {
+      "remoteId": "7458",
+      "title": "颜氏家训",
+      "author": "Yan, Zhitui, 531-591"
+    },
+    {
+      "remoteId": "25365",
+      "title": "颜氏家训",
+      "author": "Yan, Zhitui, 531-591"
+    },
+    {
+      "remoteId": "24037",
+      "title": "颜氏家训",
+      "author": "Yan, Zhitui, 531-591"
+    },
+    {
+      "remoteId": "7454",
+      "title": "颜氏家训 — Volume 01 and 02",
+      "author": "Yan, Zhitui, 531-591"
+    },
+    {
+      "remoteId": "7455",
+      "title": "颜氏家训 — Volume 03 and 04",
+      "author": "Yan, Zhitui, 531-591"
+    },
+    {
+      "remoteId": "7456",
+      "title": "颜氏家训 — Volume 05 and 06",
+      "author": "Yan, Zhitui, 531-591"
+    },
+    {
+      "remoteId": "7457",
+      "title": "颜氏家训 — Volume 07",
+      "author": "Yan, Zhitui, 531-591"
+    },
+    {
+      "remoteId": "43010",
+      "title": "竹叶亭杂记",
+      "author": "Yao, Yuanzhi, 1773-1852"
+    },
+    {
+      "remoteId": "25260",
+      "title": "丰收",
+      "author": "Ye, Zi, 1912?-1939"
+    },
+    {
+      "remoteId": "25602",
+      "title": "兰花梦奇传",
+      "author": "Yinmeishanren"
+    },
+    {
+      "remoteId": "27017",
+      "title": "尹文子",
+      "author": "Yin, Wen, 350 BC-284 BC"
+    },
+    {
+      "remoteId": "25169",
+      "title": "关尹子",
+      "author": "Yin, Xi, active 6th century B.C."
+    },
+    {
+      "remoteId": "25147",
+      "title": "黄绣球",
+      "author": "Yisuo"
+    },
+    {
+      "remoteId": "27302",
+      "title": "邻女语",
+      "author": "Youhuanyusheng"
+    },
+    {
+      "remoteId": "27734",
+      "title": "合浦珠",
+      "author": "Yuanhuyanshuisanren, active 17th century-18th century"
+    },
+    {
+      "remoteId": "26877",
+      "title": "珍珠舶",
+      "author": "Yuanhuyanshuisanren, active 17th century-18th century"
+    },
+    {
+      "remoteId": "25245",
+      "title": "子不语",
+      "author": "Yuan, Mei, 1716-1798"
+    },
+    {
+      "remoteId": "25315",
+      "title": "续子不语",
+      "author": "Yuan, Mei, 1716-1798"
+    },
+    {
+      "remoteId": "52206",
+      "title": "随园诗话",
+      "author": "Yuan, Mei, 1716-1798"
+    },
+    {
+      "remoteId": "52267",
+      "title": "莺莺传",
+      "author": "Yuan, Zhen, 779-831"
+    },
+    {
+      "remoteId": "57278",
+      "title": "青楼梦",
+      "author": "Yu, Da, -1884"
+    },
+    {
+      "remoteId": "27636",
+      "title": "沉沦",
+      "author": "Yu, Dafu, 1896-1945"
+    },
+    {
+      "remoteId": "27459",
+      "title": "耳食录",
+      "author": "Yue, Jun, 1766-1814"
+    },
+    {
+      "remoteId": "26887",
+      "title": "桯史",
+      "author": "Yue, Ke, 1183-1234"
+    },
+    {
+      "remoteId": "25543",
+      "title": "蜃楼志",
+      "author": "Yulinglaoren, active 18th century"
+    },
+    {
+      "remoteId": "25284",
+      "title": "五凤吟",
+      "author": "Yunyangchichidaoren, active 17th century-18th century"
+    },
+    {
+      "remoteId": "24294",
+      "title": "警悟钟",
+      "author": "Yunyangchichidaoren, active 17th century-18th century"
+    },
+    {
+      "remoteId": "25350",
+      "title": "荡寇志",
+      "author": "Yu, Wanchun, 1794-1849"
+    },
+    {
+      "remoteId": "54670",
+      "title": "裨海纪游",
+      "author": "Yu, Yonghe, active 1691-1697"
+    },
+    {
+      "remoteId": "25128",
+      "title": "孽海花",
+      "author": "Zeng, Pu, 1872-1935"
+    },
+    {
+      "remoteId": "7420",
+      "title": "幽梦影",
+      "author": "Zhang, Chao, 1650-"
+    },
+    {
+      "remoteId": "25381",
+      "title": "幽梦影",
+      "author": "Zhang, Chao, 1650-"
+    },
+    {
+      "remoteId": "7418",
+      "title": "幽梦影 — Part 1",
+      "author": "Zhang, Chao, 1650-"
+    },
+    {
+      "remoteId": "7419",
+      "title": "幽梦影 — Part 2",
+      "author": "Zhang, Chao, 1650-"
+    },
+    {
+      "remoteId": "27165",
+      "title": "西湖梦寻",
+      "author": "Zhang, Dai, 1597-1679"
+    },
+    {
+      "remoteId": "25401",
+      "title": "陶庵梦忆",
+      "author": "Zhang, Dai, 1597-1679"
+    },
+    {
+      "remoteId": "24327",
+      "title": "何典",
+      "author": "Zhang, Nanzhuang"
+    },
+    {
+      "remoteId": "7407",
+      "title": "棋经",
+      "author": "Zhang, Ni"
+    },
+    {
+      "remoteId": "27092",
+      "title": "括异志",
+      "author": "Zhang, Shizheng, active 11th century"
+    },
+    {
+      "remoteId": "24021",
+      "title": "杜骗新书",
+      "author": "Zhang, Yingyu, active 16th century-17th century"
+    },
+    {
+      "remoteId": "27263",
+      "title": "张载集",
+      "author": "Zhang, Zai, 1020-1077"
+    },
+    {
+      "remoteId": "24272",
+      "title": "伤寒论",
+      "author": "Zhang, Zhongjing, active 168-196"
+    },
+    {
+      "remoteId": "26997",
+      "title": "朝野佥载",
+      "author": "Zhang, Zhuo, 660?-740?"
+    },
+    {
+      "remoteId": "25231",
+      "title": "游仙窟",
+      "author": "Zhang, Zhuo, 660?-740?"
+    },
+    {
+      "remoteId": "24295",
+      "title": "游仙窟",
+      "author": "Zhang, Zhuo, 660?-740?"
+    },
+    {
+      "remoteId": "24316",
+      "title": "花间集",
+      "author": "Zhao, Chongzuo, active 934-965"
+    },
+    {
+      "remoteId": "25131",
+      "title": "吴越春秋",
+      "author": "Zhao, Ye, active 40"
+    },
+    {
+      "remoteId": "25391",
+      "title": "瓯北诗话",
+      "author": "Zhao, Yi, 1727-1814"
+    },
+    {
+      "remoteId": "25125",
+      "title": "明皇杂录",
+      "author": "Zheng, Chuhui, jin shi 834"
+    },
+    {
+      "remoteId": "25460",
+      "title": "诗品",
+      "author": "Zhong, Rong, active 502-519"
+    },
+    {
+      "remoteId": "7342",
+      "title": "诗品",
+      "author": "Zhong, Rong, active 502-519"
+    },
+    {
+      "remoteId": "25263",
+      "title": "周礼",
+      "author": "Zhou, Gong, -1105 BC"
+    },
+    {
+      "remoteId": "25392",
+      "title": "西湖二集",
+      "author": "Zhou, Qingyuan, active 16th century-17th century"
+    },
+    {
+      "remoteId": "24184",
+      "title": "千字文",
+      "author": "Zhou, Xingsi, -521"
+    },
+    {
+      "remoteId": "23912",
+      "title": "千字文",
+      "author": "Zhou, Xingsi, -521"
+    },
+    {
+      "remoteId": "24075",
+      "title": "千字文",
+      "author": "Zhou, Xingsi, -521"
+    },
+    {
+      "remoteId": "27398",
+      "title": "鸡肋编",
+      "author": "Zhuang, Chuo, 1078-"
+    },
+    {
+      "remoteId": "30460",
+      "title": "出师表",
+      "author": "Zhuge, Liang, 181-234"
+    },
+    {
+      "remoteId": "27217",
+      "title": "牛郎织女传",
+      "author": "Zhu, Mingshi, 1260-1340"
+    },
+    {
+      "remoteId": "7376",
+      "title": "中庸 章句",
+      "author": "Zhu, Xi, 1130-1200"
+    },
+    {
+      "remoteId": "7375",
+      "title": "大学 章句",
+      "author": "Zhu, Xi, 1130-1200"
+    },
+    {
+      "remoteId": "23840",
+      "title": "近思录",
+      "author": "Zhu, Xi, 1130-1200"
+    },
+    {
+      "remoteId": "23816",
+      "title": "朱子治家格言",
+      "author": "Zhu, Yongchun, 1617-1689"
+    },
+    {
+      "remoteId": "24110",
+      "title": "欧游杂记",
+      "author": "Zhu, Ziqing, 1898-1948"
+    },
+    {
+      "remoteId": "25323",
+      "title": "狐狸缘全传",
+      "author": "Zuiyueshanren, active 1804-1876"
+    },
+    {
+      "remoteId": "27403",
+      "title": "清代野记",
+      "author": "Zuoguanlaoren, 1849-1917"
+    },
+    {
+      "remoteId": "27402",
+      "title": "风流悟",
+      "author": "Zuohuasanren"
+    },
+    {
+      "remoteId": "23911",
+      "title": "国语",
+      "author": "Zuoqiu, Ming"
+    },
+    {
+      "remoteId": "24136",
+      "title": "左传",
+      "author": "Zuoqiu, Ming"
+    }
+  ]
+}

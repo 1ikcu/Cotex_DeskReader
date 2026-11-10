@@ -1,0 +1,70 @@
+{
+  "name": "cotex",
+  "version": "1.0.0",
+  "description": "A local-first desktop novel reader with a familiar work chat interface",
+  "private": true,
+  "main": "electron/main.cjs",
+  "author": "Cotex",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "start": "electron .",
+    "test": "node --test tests/core.test.cjs tests/cotex.test.cjs tests/sources.test.cjs tests/window.test.cjs",
+    "test:ui": "node tests/e2e.cjs",
+    "dist": "npm run build && electron-builder --win portable nsis --x64"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "fast-xml-parser": "^5.3.6",
+    "iconv-lite": "^0.7.2",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.577.0",
+    "opencc-js": "^1.0.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@vitejs/plugin-react": "latest",
+    "electron": "45.2.3",
+    "electron-builder": "26.18.0",
+    "vite": "8.3.7"
+  },
+  "build": {
+    "appId": "local.deskreader.app",
+    "productName": "Cotex",
+    "copyright": "Copyright © 2026 Cotex",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        "portable",
+        "nsis"
+      ],
+      "signAndEditExecutable": true
+    },
+    "portable": {
+      "artifactName": "Cotex-${version}-Portable.exe"
+    },
+    "nsis": {
+      "artifactName": "Cotex-${version}-Setup.exe",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "deleteAppDataOnUninstall": false,
+      "shortcutName": "Cotex"
+    },
+    "electronDist": "node_modules/electron/dist"
+  }
+}

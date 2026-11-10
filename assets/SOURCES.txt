@@ -1,0 +1,35 @@
+DeskReader — bundled public-domain texts
+
+1. 西游记 / 西遊記, 吴承恩 / Wu Cheng'en
+   https://www.gutenberg.org/ebooks/23962
+   https://www.gutenberg.org/cache/epub/23962/pg23962.txt
+
+2. 红楼梦 / 紅樓夢, 曹雪芹 / Cao Xueqin
+   https://www.gutenberg.org/ebooks/24264
+   https://www.gutenberg.org/cache/epub/24264/pg24264.txt
+
+3. 三国演义 / 三國志演義, 罗贯中 / Luo Guanzhong
+   https://www.gutenberg.org/ebooks/23950
+   https://www.gutenberg.org/cache/epub/23950/pg23950.txt
+
+4. 水浒传 / 水滸傳 (七十回本), 施耐庵 / Shi Nai'an
+   https://www.gutenberg.org/ebooks/23863
+   https://www.gutenberg.org/cache/epub/23863/pg23863.txt
+
+Original downloaded text files are preserved in this folder, including
+Project Gutenberg's header, credits and license. Downloaded 2026-11-10.
+The application presents a reading view separately. Simplified Chinese is a
+display conversion; original source files are not modified.
+
+Search metadata: https://gutendex.com/
+Online web fiction: https://book.sfacg.com/ and https://s.sfacg.com/
+Web fiction is fetched on demand, not bundled. All rights remain with the
+respective authors and publishers.
+
+MIT components: React, Electron, Vite, Cheerio, fast-xml-parser, iconv-lite,
+OpenCC-JS, electron-builder. JSZip: MIT/GPLv3 dual license (MIT selected).
+Lucide icons: ISC. Full installed dependency licenses are included alongside
+their packages in the application resources. Electron's Chromium licenses
+are included in the packaged distribution.
+
+DeskReader is an independent application, not an OpenAI product.

@@ -1,0 +1,66 @@
+const {_electron:electron,expect}=require('@playwright/test');
+const path=require('node:path'),fs=require('node:fs');
+const root=path.resolve(__dirname,'..');
+const results=path.join(root,'test-results');fs.mkdirSync(results,{recursive:true});
+const data=path.join(results,'data-'+Date.now());const logs=[];
+async function launch(){
+ const env={...process.env,DESKREADER_DATA:data};delete env.ELECTRON_RUN_AS_NODE;
+ const a=await electron.launch({args:[root],env,timeout:45000});const p=await a.firstWindow();p.on('pageerror',e=>logs.push(e.message));await p.waitForSelector('.chapter .prose',{timeout:20000});return {a,p};
+}
+(async()=>{
+ let {a,p}=await launch();
+ try{
+  await expect(p.locator('.book-row')).toHaveCount(4);
+  await expect(p.locator('.book-row').first().locator('.real-name')).toBeHidden();
+  await p.locator('.book-row').first().hover();await expect(p.locator('.book-row').first().locator('.real-name')).toBeVisible();
+  await p.mouse.move(650,90);
+  await p.screenshot({path:path.join(results,'01-desktop.png')});
+  await p.getByRole('textbox',{name:'搜索章节',exact:true}).fill('第十二回');await p.getByRole('textbox',{name:'搜索章节',exact:true}).press('Enter');
+  await expect(p.locator('.chapter').first()).toHaveAttribute('id','chapter-11');
+  await p.getByRole('button',{name:'收起正文 12',exact:true}).click();await expect(p.locator('.chapter').first().locator('.summary-text')).toBeVisible();
+  await p.screenshot({path:path.join(results,'02-collapsed.png')});
+  await p.getByRole('button',{name:'展开正文 12',exact:true}).click();await expect(p.locator('.chapter').first().locator('.prose')).toBeVisible();
+  await p.getByRole('textbox',{name:'搜索章节',exact:true}).fill('没有这个章节');await p.getByRole('textbox',{name:'搜索章节',exact:true}).press('Enter');await expect(p.locator('.chapter-search-results')).toContainText('没有匹配');
+  await p.keyboard.press('Escape');
+  const chapterSearch=p.getByRole('textbox',{name:'搜索章节',exact:true});
+  const summary=p.locator('.boss-content');
+  await chapterSearch.press('Space');
+  await expect(chapterSearch).toHaveValue('没有这个章节 ');
+  await expect(summary).toHaveCount(0);
+  await p.locator('.chapter .prose p').first().click();
+  await p.keyboard.down('Space');
+  await expect(summary).toBeVisible();
+  await expect(p.locator('.prose')).toHaveCount(0);
+  await p.keyboard.down('Space');
+  await p.keyboard.up('Space');
+  await expect(summary).toBeVisible();
+  await p.keyboard.press('Space');
+  await expect(p.locator('.prose').first()).toBeVisible();
+  await p.keyboard.press('Control+d');await expect(p.locator('.toast')).toContainText('书签');
+  await p.getByRole('button',{name:'章节目录',exact:true}).press('Space');
+  await expect(p.locator('.toc-panel')).toBeVisible();
+  await expect(summary).toHaveCount(0);
+  await p.screenshot({path:path.join(results,'03-toc.png')});await p.getByRole('button',{name:'关闭目录',exact:true}).click();
+  await p.getByRole('button',{name:'搜索小说库 Ctrl+K'}).click();await expect(p.getByRole('dialog')).toBeVisible();await p.getByRole('textbox',{name:'搜索书名或作者'}).fill('红楼');await expect(p.locator('.library-book')).toHaveCount(1);
+  await p.getByRole('dialog',{name:'搜索资料'}).press('Space');
+  await expect(p.getByRole('dialog',{name:'搜索资料'})).toBeVisible();
+  await expect(summary).toHaveCount(0);
+  await p.keyboard.press('Escape');
+  await a.evaluate(({dialog},files)=>{dialog.showOpenDialog=async()=>({canceled:false,filePaths:files});},[path.join(__dirname,'fixtures/sample-gbk.txt'),path.join(__dirname,'fixtures/sample.epub')]);
+  await p.getByRole('button',{name:'新聊天',exact:true}).click();await expect(p.locator('.book-row')).toHaveCount(6);await expect(p.locator('.chapter').first()).toContainText('这是一段可读的正文&符号。');
+  await p.getByRole('textbox',{name:'搜索章节',exact:true}).fill('2');await p.getByRole('textbox',{name:'搜索章节',exact:true}).press('Enter');await expect(p.locator('.chapter').first()).toHaveAttribute('id','chapter-1');
+  const b=await p.evaluate(async()=>{const d=await window.desk.state();return window.desk.open(d.activeId);});expect(b.format).toBe('EPUB');
+  await p.waitForTimeout(900);
+  await p.getByRole('button',{name:'阅读设置',exact:true}).click();await p.getByLabel('外观',{exact:true}).selectOption('dark');await p.keyboard.press('Escape');await expect(p.locator('.app')).toHaveClass(/theme-dark/);
+  await a.evaluate(({BrowserWindow})=>BrowserWindow.getAllWindows()[0].setSize(800,650));await p.screenshot({path:path.join(results,'04-narrow-dark.png')});
+  const overflow=await p.evaluate(()=>document.querySelector('.main').scrollWidth>document.querySelector('.main').clientWidth);expect(overflow).toBe(false);
+  await p.getByRole('button',{name:'阅读设置',exact:true}).click();await p.getByLabel('外观',{exact:true}).selectOption('light');await p.keyboard.press('Escape');
+  await a.close();
+  ({a,p}=await launch());await expect(p.locator('.chapter').first()).toHaveAttribute('id','chapter-1');await expect(p.locator('.chapter').first()).toContainText('这是第二章的完整内容');
+  await a.evaluate(({BrowserWindow})=>BrowserWindow.getAllWindows()[0].setSize(1440,920));
+  await p.keyboard.press('Control+k');await p.getByRole('textbox',{name:'搜索书名或作者'}).fill('西游');await p.locator('.library-book').click();await expect(p.locator('.chapter').first()).toHaveAttribute('id','chapter-11');
+  await p.getByRole('textbox',{name:'搜索章节',exact:true}).fill('1');await p.getByRole('textbox',{name:'搜索章节',exact:true}).press('Enter');const multiple=await p.locator('.chapter-search-results').count();if(multiple)await p.locator('.chapter-search-results>button').first().click();
+  await p.screenshot({path:path.join(results,'05-final.png')});
+  expect(logs).toEqual([]);console.log('PASS: UI, import TXT/EPUB, search, collapse, focus-aware Space, bookmarks, narrow layout, settings, persistence.');console.log('Screenshots: '+results);
+ }finally{await a.close().catch(()=>{});}
+})().catch(e=>{console.error(e);process.exitCode=1});
