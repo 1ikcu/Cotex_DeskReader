@@ -60,7 +60,7 @@ function register(){
   const definitions={
    file:[{label:'新聊天',accelerator:'CmdOrCtrl+O',click:()=>send('import')},{label:'搜索',accelerator:'CmdOrCtrl+K',click:()=>send('search')},{type:'separator'},{label:'导出当前文本',click:()=>send('export')},{label:'备份书库',click:()=>send('backup')},{label:'恢复书库',click:()=>send('restore')},{type:'separator'},{label:'退出',role:'quit'}],
    edit:[{role:'undo',label:'撤销'},{role:'redo',label:'重做'},{type:'separator'},{role:'cut',label:'剪切'},{role:'copy',label:'复制'},{role:'paste',label:'粘贴'},{role:'selectAll',label:'全选'}],
-   view:[{label:'侧边栏',click:()=>send('sidebar')},{label:'章节目录',click:()=>send('toc')},{label:'全部收起',click:()=>send('collapse')},{label:'工作摘要（阅读区按空格）',click:()=>send('boss')},{type:'separator'},{label:'设置',click:()=>send('settings')},{role:'togglefullscreen',label:'全屏'}],
+   view:[{label:'侧边栏',click:()=>send('sidebar')},{label:'章节目录',click:()=>send('toc')},{label:'全部收起',click:()=>send('collapse')},{label:'工作摘要（空格）',click:()=>send('boss')},{type:'separator'},{label:'设置',click:()=>send('settings')},{role:'togglefullscreen',label:'全屏'}],
    help:[{label:'使用说明',click:()=>send('help')},{label:'关于 Cotex',click:()=>send('about')}]
   };if(definitions[name])Menu.buildFromTemplate(definitions[name]).popup({window:win});
  });

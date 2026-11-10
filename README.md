@@ -8,7 +8,7 @@ Cotex 是一款 Windows 小说阅读器，采用受 Codex 启发的工作聊天�
 
 ## 下载与使用
 
-前往 [Cotex 1.0.0 下载页](https://github.com/BrokenHT/Cotex/releases/tag/v1.0.0)。安装版为 `Cotex-1.0.0-Setup.exe`，免安装版为 `Cotex-1.0.0-Portable.exe`。
+前往 [最新版本下载页](https://github.com/BrokenHT/Cotex_DeskReader/releases/latest)。安装版为 `Cotex-1.0.0-Setup.exe`，免安装版为 `Cotex-1.0.0-Portable.exe`。
 
 启动后点击「新聊天」导入一本书。阅读时可在底部输入框输入章号或标题关键词，按 Enter 跳转。
 
