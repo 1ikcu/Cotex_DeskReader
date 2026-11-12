@@ -30,7 +30,6 @@ test('EPUB spine order, metadata, HTML stripping and entities',async()=>{
  zip.file('OEBPS/b.xhtml','<html><body><h1>第二章 后来</h1><p>这是第二章的完整内容，不可丢失。</p></body></html>');
  const buf=await zip.generateAsync({type:'nodebuffer'});const b=await parseEPUB(buf,'test.epub');
  assert.equal(b.title,'测试 EPUB');assert.equal(b.author,'测试作者');assert.equal(b.chapters.length,2);assert.equal(b.chapters[0].title,'第一章 开始');assert.match(b.chapters[0].paragraphs.join(''),/&符号/);assert.doesNotMatch(b.chapters[0].paragraphs.join(''),/alert/);
- fs.mkdirSync(path.join(__dirname,'fixtures'),{recursive:true});fs.writeFileSync(path.join(__dirname,'fixtures/sample.epub'),buf);
 });
 test('HTML remains plain text and scripts are never preserved',()=>{assert.equal(htmlText('<p>hello</p><script>bad()</script><p>&lt;ok&gt;</p>'),'hello\n<ok>');assert.equal(simplify('紅樓夢'),'红楼梦');});
 test('progress/bookmarks/collapse survive restart without rewriting large book',()=>{
@@ -47,4 +46,3 @@ test('SF catalogue distinguishes free and VIP, de-duplicates exact URLs',()=>{
  const s=new Sources(fetch);const list=s.parseSFCatalog('<div class="catalog-list"><a href="/Novel/123/1/2/" title="第一章">第一章</a><a href="/Novel/123/1/2/">重复</a><a href="/vip/c/3/" title="第二章">VIP</a><a href="javascript:alert(1)">bad</a></div>','123');
  assert.equal(list.length,2);assert.equal(list[0].locked,false);assert.equal(list[1].locked,true);
 });
-fs.mkdirSync(path.join(__dirname,'fixtures'),{recursive:true});fs.writeFileSync(path.join(__dirname,'fixtures/sample.txt'),fixture);fs.writeFileSync(path.join(__dirname,'fixtures/sample-gbk.txt'),iconv.encode(fixture,'gb18030'));

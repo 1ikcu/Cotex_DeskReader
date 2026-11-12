@@ -2,6 +2,7 @@
   "name": "cotex",
   "version": "1.0.0",
   "description": "A local-first desktop novel reader with a familiar work chat interface",
+  "desktopName": "Cotex",
   "private": true,
   "main": "electron/main.cjs",
   "author": "Cotex",
@@ -12,7 +13,9 @@
     "start": "electron .",
     "test": "node --test tests/core.test.cjs tests/cotex.test.cjs tests/sources.test.cjs tests/window.test.cjs",
     "test:ui": "node tests/e2e.cjs",
-    "dist": "npm run build && electron-builder --win portable nsis --x64"
+    "test:packaged": "node tests/packaged.cjs",
+    "dist": "npm run build && electron-builder --win portable nsis --x64",
+    "dist:linux": "npm run build && electron-builder --linux AppImage deb --x64"
   },
   "dependencies": {
     "cheerio": "^1.1.2",
@@ -53,6 +56,17 @@
       ],
       "signAndEditExecutable": true
     },
+    "linux": {
+      "icon": "assets/icon.png",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Utility",
+      "maintainer": "Cotex <1ikcu@users.noreply.github.com>",
+      "syncDesktopName": true,
+      "artifactName": "Cotex-${version}-${arch}.${ext}"
+    },
     "portable": {
       "artifactName": "Cotex-${version}-Portable.exe"
     },
@@ -64,7 +78,6 @@
       "createStartMenuShortcut": true,
       "deleteAppDataOnUninstall": false,
       "shortcutName": "Cotex"
-    },
-    "electronDist": "node_modules/electron/dist"
+    }
   }
 }

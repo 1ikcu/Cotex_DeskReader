@@ -10,6 +10,23 @@ async function launch(){
 (async()=>{
  let {a,p}=await launch();
  try{
+  await expect(p.getByRole('button',{name:'新对话',exact:true})).toBeVisible();
+  for(const name of ['Pull Request','已安排','插件','探索'])await expect(p.getByRole('button',{name,exact:true})).toBeVisible();
+  await expect(p.getByRole('button',{name:'你的 Dot',exact:true})).toHaveCount(0);
+  await expect(p.getByRole('button',{name:'主页',exact:true})).toHaveCount(0);
+  await expect(p.getByRole('button',{name:'搜索小说',exact:true})).toHaveCount(0);
+  await expect(p.getByRole('button',{name:'书库 Ctrl+K',exact:true})).toBeVisible();
+  await expect(p.getByRole('button',{name:'请求批准',exact:true})).toBeVisible();
+  await expect(p.getByText('5.6 Sol 高',{exact:true})).toBeVisible();
+  await expect(p.getByRole('textbox',{name:'搜索章节',exact:true})).toHaveAttribute('placeholder','随心输入');
+  await expect(p.getByRole('button',{name:'查找章节',exact:true}).locator('svg')).toHaveClass(/lucide-arrow-up/);
+  await expect(p.getByText('项目',{exact:true})).toBeVisible();
+  await expect(p.getByText('最近',{exact:true})).toBeVisible();
+  await p.getByRole('button',{name:/^账户 Kcu Li/}).click();
+  const accountName=p.getByRole('textbox',{name:'账户名称',exact:true});
+  await accountName.fill('阅读者 Li');await accountName.press('Enter');await p.keyboard.press('Escape');
+  await expect(p.getByRole('button',{name:/^账户 阅读者 Li/})).toBeVisible();
+  await p.getByRole('button',{name:/^账户 阅读者 Li/}).click();await p.getByRole('textbox',{name:'账户名称',exact:true}).fill('Kcu Li');await p.getByRole('textbox',{name:'账户名称',exact:true}).press('Enter');await p.keyboard.press('Escape');
   await expect(p.locator('.book-row')).toHaveCount(4);
   await expect(p.locator('.book-row').first().locator('.real-name')).toBeHidden();
   await p.locator('.book-row').first().hover();await expect(p.locator('.book-row').first().locator('.real-name')).toBeVisible();
@@ -75,7 +92,7 @@ async function launch(){
   await expect(summary).toHaveCount(0);
   await p.keyboard.press('Escape');
   await a.evaluate(({dialog},files)=>{dialog.showOpenDialog=async()=>({canceled:false,filePaths:files});},[path.join(__dirname,'fixtures/sample-gbk.txt'),path.join(__dirname,'fixtures/sample.epub')]);
-  await p.getByRole('button',{name:'新聊天',exact:true}).click();await expect(p.locator('.book-row')).toHaveCount(6);await expect(p.locator('.chapter').first()).toContainText('这是一段可读的正文&符号。');
+  await p.getByRole('button',{name:'新对话',exact:true}).click();await expect(p.locator('.book-row')).toHaveCount(6);await expect(p.locator('.chapter').first()).toContainText('这是一段可读的正文&符号。');
   await p.getByRole('textbox',{name:'搜索章节',exact:true}).fill('2');await p.getByRole('textbox',{name:'搜索章节',exact:true}).press('Enter');await expect(p.locator('.chapter').first()).toHaveAttribute('id','chapter-1');
   const b=await p.evaluate(async()=>{const d=await window.desk.state();return window.desk.open(d.activeId);});expect(b.format).toBe('EPUB');
   await p.waitForTimeout(900);
@@ -84,7 +101,7 @@ async function launch(){
   const overflow=await p.evaluate(()=>document.querySelector('.main').scrollWidth>document.querySelector('.main').clientWidth);expect(overflow).toBe(false);
   await p.getByRole('button',{name:'阅读设置',exact:true}).click();await p.getByLabel('外观',{exact:true}).selectOption('light');await p.keyboard.press('Escape');
   await a.close();
-  ({a,p}=await launch());await expect(p.locator('.chapter').first()).toHaveAttribute('id','chapter-1');await expect(p.locator('.chapter').first()).toContainText('这是第二章的完整内容');
+  ({a,p}=await launch());await expect(p.locator('.chapter').first()).toHaveAttribute('id','chapter-1');await expect(p.locator('.chapter').first()).toContainText('这是第二章的完整内容');expect(await p.evaluate(async()=>(await window.desk.state()).settings.accountName)).toBe('Kcu Li');
   await a.evaluate(({BrowserWindow})=>BrowserWindow.getAllWindows()[0].setSize(1440,920));
   const journeyChapter=await p.evaluate(async()=>{
    const state=await window.desk.state();

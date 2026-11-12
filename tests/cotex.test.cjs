@@ -49,6 +49,17 @@ test('ring handles start, paragraph reading, final chapter and completion', asyn
   assert.equal(readingPercent({chapters:[{paragraphs:null}]}, {}), 0);
 });
 
+test('sidebar project and account settings have safe persistent defaults', () => {
+  const root = fixtureRoot();
+  const store = new Store(root);
+  assert.equal(store.db.settings.group, '项目');
+  assert.equal(store.db.settings.accountName, 'Kcu Li');
+  store.settings({group:'阅读项目',accountName:'  阅读者 Li  '});
+  const restarted = new Store(root);
+  assert.equal(restarted.db.settings.group, '阅读项目');
+  assert.equal(restarted.db.settings.accountName, '阅读者 Li');
+});
+
 test('finished reading persists and resets when navigating backwards', () => {
   const s = new Store(fixtureRoot());
   const b = finalizeBook(parseTXT(Buffer.from('第一章 开始\n正文\n第二章 结束\n终章'), '示例.txt'), 'progress');
